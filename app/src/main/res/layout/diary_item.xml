@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="#C8E6C9"> <!-- 배경색: dark pale green -->
+
+    <!-- idx -->
+    <TextView
+        android:id="@+id/diary_idx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingBottom="4dp"
+        android:textColor="#006400"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="8dp"/><!-- 글자색: dark green -->
+
+    <!-- 작성 시간 -->
+    <TextView
+        android:id="@+id/diary_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2024-07-03 12:00"
+        android:textSize="14sp"
+        android:paddingBottom="4dp"
+        android:textColor="#808080"
+        android:layout_below="@id/diary_idx"
+        android:layout_alignParentStart="true"/><!-- 글자색: dark green -->
+
+    <!-- 일기 내용 -->
+    <TextView
+        android:id="@+id/diary_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is a sample diary content. You can write up to 100 characters here."
+        android:textSize="16sp"
+        android:maxLength="100"
+        android:textColor="#006400"
+        android:layout_below="@id/diary_time"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/delete_button"/><!-- 글자색: dark green -->
+
+    <!-- 삭제 버튼 -->
+    <!-- 삭제 버튼 -->
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Delete"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rounded_button"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:textSize="14sp"/>
+
+
+</RelativeLayout>

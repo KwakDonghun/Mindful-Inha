@@ -1,0 +1,8 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#4CAF50"/> <!-- 마음이 편해지는 녹색 계열 -->
+    <corners android:radius="20dp"/> <!-- 테두리를 동그랗게 -->
+    <padding android:left="16dp"
+        android:top="8dp"
+        android:right="16dp"
+        android:bottom="8dp"/>
+</shape>

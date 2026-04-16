@@ -1,0 +1,10 @@
+<!--일기 작성하기 버튼 스타일-->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/holo_red_light"/> <!-- 초록색 배경 -->
+    <corners android:radius="8dp"/> <!-- 둥근 모서리 -->
+    <padding android:left="16dp"
+        android:top="8dp"
+        android:right="16dp"
+        android:bottom="8dp"/>
+</shape>

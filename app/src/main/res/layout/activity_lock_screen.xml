@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#E8F5E9">
+
+    <!-- 남은 시간 표시 -->
+    <TextView
+        android:id="@+id/tvRemainingTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="남은 시간: 00:00:00"
+        android:textAlignment="center"
+        android:textSize="35sp" />
+
+    <!-- 동기 부여 문구 -->
+    <TextView
+        android:id="@+id/tvMotivationalQuote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="동기 부여 문구"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="sans-serif-medium"
+        android:padding="16dp"
+        android:textAlignment="center" />
+
+    <!-- 비상 탈출 버튼 -->
+    <Button
+        android:id="@+id/btnEmergencyExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비상 탈출"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:fontFamily="sans-serif-medium" />
+</LinearLayout>

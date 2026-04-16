@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    >
+
+    <RadioGroup
+        android:id="@+id/soundRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioWhiteNoise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="White Noise" />
+
+        <RadioButton
+            android:id="@+id/radioRainSound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rain Sound" />
+
+        <RadioButton
+            android:id="@+id/radioWindSound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wind Sound" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/setSoundButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Sound"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"/>
+</LinearLayout>

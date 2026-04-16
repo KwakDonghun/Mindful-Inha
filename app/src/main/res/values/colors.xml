@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#98FB98</color>
+    <color name="light_green">#98FB98</color>
+
+    <!-- primary 색상에 어울리는 dark 색상 -->
+    <color name="colorPrimaryDark">#558B2F</color>
+
+    <!-- primary 색상에 어울리는 accent 색상 -->
+    <color name="colorAccent">#FF4081</color>
+</resources>

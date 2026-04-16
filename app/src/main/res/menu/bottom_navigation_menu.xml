@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:title="홈" />
+    <item
+        android:id="@+id/navigation_diary"
+        android:icon="@drawable/ic_diary"
+        android:title="일기" />
+    <item
+        android:id="@+id/navigation_lock"
+        android:icon="@drawable/ic_lock"
+        android:title="잠금" />
+    <item
+        android:id="@+id/navigation_consult"
+        android:icon="@drawable/ic_consult"
+        android:title="상담" />
+    <item
+        android:id="@+id/navigation_sleep"
+        android:icon="@drawable/ic_sleep"
+        android:title="수면" />
+</menu>
